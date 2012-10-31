@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+	<head>
+        <meta charset="utf-8">	
+		<title>rainbowballz</title>
+		<link rel="stylesheet" href="style.css">		
+	</head>
+	
+	<body>
+	
+		<div id="controls">
+			<span>
+			
+				<h1>RAINBOWBALLZ</h1>
+				
+				<p>Drag your mouse around. Move sliders to adjust effects. Click to toggle painting mode on/off. (No sliders in Firefox, sorry!)</p>
+				
+				<p>
+					<label>Ball count</label>
+					<input class="controller" name="COLS" type="range" min="5" max="70" value="50">
+				</p>
+				
+				<p>
+					<label>Effect radius</label>
+					<input class="controller" name="MOUSE_RADIUS" type="range" min="100" max="500" value="200">
+				</p>
+				
+				<p>
+					<label>Effect strength</label>
+					<input class="controller" name="EFFECT_STRENGTH" type="range" min="1" max="20" value="2">
+				</p>
+								
+				<p>
+					<label>Min size</label>
+					<input class="controller" name="MIN_RADIUS" type="range" min="0" max="50" value="0.5">
+				</p>
+				
+				<p>
+					<label>Line thickness</label>
+					<input class="controller" name="LINE_WIDTH" type="range" min="1" max="5" value="1">
+				</p>
+			
+			</span>
+			
+			<a href="#" class="toggle-controls" id="open">Open controls</a>
+			<a href="#" class="toggle-controls" id="close">Close controls</a>
+		</div>
+
+		<a href="https://github.com/neilcarpenter/rainbowballz" id="ribbon"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 50;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+		
+		<script src="script.js"></script>
+
+		<script type="text/javascript">
+		    var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-16253496-4']);
+		    _gaq.push(['_trackPageview']);
+		    (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
+		</script>	
+		
+	</body>
+</html>
